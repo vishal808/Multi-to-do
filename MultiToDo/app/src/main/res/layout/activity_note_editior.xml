@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainToDo">
+  
+    <!--Adding Edit Text To add data to List View-->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+         />
+     <Button
+        android:id="@+id/idBtnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:text="Add"
+	/>
+</LinearLayout>
